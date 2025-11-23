@@ -229,6 +229,12 @@ Planned next steps:
 
 If you have questions, suggestions, or feedback:
 
-GitHub: [@Nawwaf1729](https://github.com/Nawwaf1729)
+GitHub: 
+
+[@Nawwaf1729](https://github.com/Nawwaf1729)
+
+or
+
+[@syauqiraihan](https://github.com/syauqiraihan)
 
 Feel free to open an issue or submit a pull request.
