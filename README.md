@@ -90,3 +90,145 @@ Stock-Forecasting-with-sentiment-analysis/
 ├── Scrapping/            # Scripts or notebooks for data scraping
 ├── Sentiment-Analysis/   # IndoBERT sentiment notebooks and utilities
 └── README.md             # Project documentation (this file)
+```
+
+---
+
+## Data
+This project assumes two main data types:
+
+1. **Historical Stock Data**
+
+   -BBRI OHLCV + Technical Indicators.
+
+   -Frequency: Hourly.
+
+   -Source: Yahoo Finance.
+
+2. **Text / News Data**
+
+   -Indonesian text related to the stock or market.
+
+   -Source: CNBC Indonesia and Bisnis.com
+
+   -Used as input for IndoBERT sentiment analysis.
+
+---
+
+## Getting Started
+
+# Prerequisites
+
+   -Python 3.8+
+
+   -Jupyter Notebook or Google Colab
+
+Used libraries: pandas, numpy, matplotlib, seaborn, TensorFlow, transformers, requests, beautifulsoup4, regex
+
+---
+
+## Usage
+
+Typical workflow:
+
+1. **Prepare / Download Data**
+
+   -Place price data and text data into the Datasets/ folder.
+
+   -Update notebook paths if necessary.
+
+2. **Run Sentiment Analysis**
+
+   -Open notebooks in Sentiment-Analysis/.
+
+   -Generate sentiment scores per text and aggregate by date.
+
+   -Save the output (e.g. sentiment_daily.csv) into Datasets/.
+
+3. **Train Forecasting Models**
+
+   -Open notebooks in Model/.
+
+   -Load price data and sentiment features.
+
+   -Configure hyperparameters (window length, learning rate, epochs, etc.).
+
+   -Train and evaluate LSTM models.
+
+4. **Visualize Results**
+
+   -Use notebooks in Figures/ or built-in plotting code to:
+
+   -Plot predicted vs. actual prices.
+
+   -Compare model performance with and without sentiment.
+
+---
+
+## Current & Planned Experiments
+
+ -Initial project setup & folder structure
+
+ -Baseline price-only
+
+ -IndoBERT sentiment extraction for Indonesian financial text
+
+ -Fusion model: Price + sentiment features
+
+ -Backtesting simple trading strategy based on predictions
+
+ -Compare multiple stocks / sectors
+
+---
+
+## Results
+
+This section will summarize:
+
+   -Model performance metrics (e.g. RMSE, MAPE).
+
+   -Whether sentiment features improve forecasting compared to price-only models.
+
+   -Key visualizations from the Figures/ folder.
+
+---
+
+## Limitations
+
+Sentiment labels and scores depend heavily on:
+
+   -Data quality,
+
+   -Text coverage,
+
+   -Domain adaptation of IndoBERT.
+
+Stock markets are noisy and influenced by many external factors.
+
+This project is for research and educational purposes only, not financial advice.
+
+---
+
+## Roadmap
+
+Planned next steps:
+
+1. Clean and finalize sentiment pipeline with IndoBERT.
+
+2. Implement configurable training script (notebook → script).
+
+3. Add more robust evaluation and cross-validation.
+
+4. Write a short report in Publications/.
+
+5. Package parts of the code into reusable modules.
+
+---
+
+## Contact
+
+If you have questions, suggestions, or feedback:
+
+GitHub: [@Nawwaf1729](https://github.com/Nawwaf1729)
+
+Feel free to open an issue or submit a pull request.
