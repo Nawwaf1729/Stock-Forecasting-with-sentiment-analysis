@@ -112,6 +112,8 @@ This project assumes two main data types:
    -Source: CNBC Indonesia and Bisnis.com
 
    -Used as input for IndoBERT sentiment analysis.
+   
+You can access datasets [here](https://github.com/Nawwaf1729/Stock-Forecasting-with-sentiment-analysis/tree/main/Datasets)
 
 ---
 
