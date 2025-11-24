@@ -6,6 +6,7 @@ Made by: Nawwaf Anshorulloh Supriyatna & Daffa Syauqi Raihan
 
 This repository explores how **market sentiment** extracted from news or social media can be combined with **time-series models (LSTM, 1D-CNN, Ensemble LSTM+1D-CNN)** to forecast stock price movements in the Indonesian market. Sentiment is computed using **IndoBERT**, while historical price data is modeled with deep learning.
 
+> **Status**: Work in progress - Waiting for publication.
 ---
 
 ## Table of Contents
