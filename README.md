@@ -1,8 +1,10 @@
 # Stock Forecasting with Sentiment Analysis using LSTM and IndoBERT
 
-This repository explores how **market sentiment** extracted from news or social media can be combined with **time-series models (LSTM, 1D-CNN, Ensemble LSTM+1D-CNN)** to forecast stock price movements in the Indonesian market. Sentiment is computed using **IndoBERT**, while historical price data is modeled with deep learning.
+Made by: Nawwaf Anshorulloh Supriyatna & Daffa Syauqi Raihan
 
-> 🚧 **Status:** Work in progress – code, experiments, and documentation are still being developed.
+# Overview
+
+This repository explores how **market sentiment** extracted from news or social media can be combined with **time-series models (LSTM, 1D-CNN, Ensemble LSTM+1D-CNN)** to forecast stock price movements in the Indonesian market. Sentiment is computed using **IndoBERT**, while historical price data is modeled with deep learning.
 
 ---
 
