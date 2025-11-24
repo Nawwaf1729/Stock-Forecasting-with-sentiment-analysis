@@ -113,7 +113,7 @@ This project assumes two main data types:
 
    -Used as input for IndoBERT sentiment analysis.
    
-You can access datasets [here](https://github.com/Nawwaf1729/Stock-Forecasting-with-sentiment-analysis/tree/main/Datasets)
+You can access the datasets [here](https://github.com/Nawwaf1729/Stock-Forecasting-with-sentiment-analysis/tree/main/Datasets)
 
 ---
 
