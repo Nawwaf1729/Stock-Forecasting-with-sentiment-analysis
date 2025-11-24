@@ -42,7 +42,8 @@ This project aims to:
 4. **Compare performance**:
    - Price-only model vs.
    - Price + sentiment model.
-5. Document findings in a clear and reproducible way.
+5. **Investment Simulation**
+6. Document findings in a clear and reproducible way.
 
 ---
 
