@@ -100,19 +100,19 @@ This project assumes two main data types:
 
 1. **Historical Stock Data**
 
-   -BBRI OHLCV + Technical Indicators.
+   - BBRI OHLCV + Technical Indicators.
 
-   -Frequency: Hourly.
+   - Frequency: Hourly.
 
-   -Source: Yahoo Finance.
+   - Source: Yahoo Finance.
 
 2. **Text / News Data**
 
-   -Indonesian text related to the stock or market.
+   - Indonesian text related to the stock or market.
 
-   -Source: CNBC Indonesia and Bisnis.com
+   - Source: CNBC Indonesia and Bisnis.com
 
-   -Used as input for IndoBERT sentiment analysis.
+   - Used as input for IndoBERT sentiment analysis.
    
 You can access the datasets [here](https://github.com/Nawwaf1729/Stock-Forecasting-with-sentiment-analysis/tree/main/Datasets)
 
@@ -122,9 +122,9 @@ You can access the datasets [here](https://github.com/Nawwaf1729/Stock-Forecasti
 
 # Prerequisites
 
-   -Python 3.8+
+   - Python 3.8+
 
-   -Jupyter Notebook or Google Colab
+   - Jupyter Notebook or Google Colab
 
 Used libraries: pandas, numpy, matplotlib, seaborn, TensorFlow, transformers, requests, beautifulsoup4, regex
 
@@ -136,51 +136,51 @@ Typical workflow:
 
 1. **Prepare / Download Data**
 
-   -Place price data and text data into the Datasets/ folder.
+   - Place price data and text data into the Datasets/ folder.
 
-   -Update notebook paths if necessary.
+   - Update notebook paths if necessary.
 
 2. **Run Sentiment Analysis**
 
-   -Open notebooks in Sentiment-Analysis/.
+   - Open notebooks in Sentiment-Analysis/.
 
-   -Generate sentiment scores per text and aggregate by date.
+   - Generate sentiment scores per text and aggregate by date.
 
-   -Save the output (e.g. sentiment_daily.csv) into Datasets/.
+   - Save the output (e.g. sentiment_daily.csv) into Datasets/.
 
 3. **Train Forecasting Models**
 
-   -Open notebooks in Model/.
+   - Open notebooks in Model/.
 
-   -Load price data and sentiment features.
+   - Load price data and sentiment features.
 
-   -Configure hyperparameters (window length, learning rate, epochs, etc.).
+   - Configure hyperparameters (window length, learning rate, epochs, etc.).
 
-   -Train and evaluate LSTM models.
+   - Train and evaluate LSTM models.
 
 4. **Visualize Results**
 
-   -Use notebooks in Figures/ or built-in plotting code to:
+   - Use notebooks in Figures/ or built-in plotting code to:
 
-   -Plot predicted vs. actual prices.
+   - Plot predicted vs. actual prices.
 
-   -Compare model performance with and without sentiment.
+   - Compare model performance with and without sentiment.
 
 ---
 
 ## Current & Planned Experiments
 
- -Initial project setup & folder structure
+ - Initial project setup & folder structure
 
- -Baseline price-only
+ - Baseline price-only
 
- -IndoBERT sentiment extraction for Indonesian financial text
+ - IndoBERT sentiment extraction for Indonesian financial text
 
- -Fusion model: Price + sentiment features
+ - Fusion model: Price + sentiment features
 
- -Backtesting simple trading strategy based on predictions
+ - Backtesting simple trading strategy based on predictions
 
- -Compare multiple stocks / sectors
+ - Compare multiple stocks / sectors
 
 ---
 
@@ -188,11 +188,11 @@ Typical workflow:
 
 This section will summarize:
 
-   -Model performance metrics (e.g. RMSE, MAPE).
+   - Model performance metrics (e.g. RMSE, MAPE).
 
-   -Whether sentiment features improve forecasting compared to price-only models.
+   - Whether sentiment features improve forecasting compared to price-only models.
 
-   -Key visualizations from the Figures/ folder.
+   - Key visualizations from the Figures/ folder.
 
 ---
 
@@ -200,11 +200,11 @@ This section will summarize:
 
 Sentiment labels and scores depend heavily on:
 
-   -Data quality,
+   - Data quality,
 
-   -Text coverage,
+   - Text coverage,
 
-   -Domain adaptation of IndoBERT.
+   - Domain adaptation of IndoBERT.
 
 Stock markets are noisy and influenced by many external factors.
 
